@@ -80,3 +80,12 @@ The test output goes in [Test Anything Protocol](http://testanything.org/) files
 [Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/TAP+Plugin) and [Smolder](http://sourceforge.net/projects/smolder/) are two things that read the Test Anything Protocol.  But you can also just look at the files, they're plain text with a very straightforward format.
 
 That was arduous!  Put it all in a Jenkins build!
+
+## Acknowledgements
+
+This complex tangle of glue code makes use of / includes:
+* [Tap4j](http://www.tap4j.org/)
+* [RCP Quickstart's bundletestcollector](http://rcpquickstart.com/2008/06/12/running-unit-tests-for-rcp-and-osgi-applications/)
+* [JUnit](http://www.junit.org/)
+* [EasyMock](http://easymock.org/) - included because some tests not in this repo use it
+* and various dependencies of all of these.  I should just use Maven, I guess :-(
