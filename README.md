@@ -84,6 +84,7 @@ That was arduous!  Put it all in a Jenkins build!
 ## Acknowledgements
 
 This complex tangle of glue code makes use of / includes:
+
 * [Tap4j](http://www.tap4j.org/)
 * [RCP Quickstart's bundletestcollector](http://rcpquickstart.com/2008/06/12/running-unit-tests-for-rcp-and-osgi-applications/)
 * [JUnit](http://www.junit.org/)
