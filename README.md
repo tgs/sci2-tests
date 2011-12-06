@@ -55,6 +55,8 @@ Unit tests should go in separate packages from the thing they're testing.  See h
   * But it's fine if you use the JUnit 4 *bundle* to implement JUnit 3-style tests (where tests inherit from TestCase)
 * Your test bundle Symbolic Name SHOULD end in ".tests".  This enables the system to make sure that all of the ".tests" bundles loaded correctly, and aren't being silently skipped.
 
+If you want to write tests that use OSGi services (for instance, to make sure that a bundle is available), your test bundle *cannot* be a plug-in fragment.  Instead, it needs to be a normal plug-in, with an Activator that will get you a BundleContext.  See `src/org.cishell.context.test` for an example.
+
 ## Preparing to run tests:
 * Find the installation of Sci2 that you want to use as your *testing area*
 * Copy everything in the plugins/ directory of the git repository to the plugins/ directory of the testing area
