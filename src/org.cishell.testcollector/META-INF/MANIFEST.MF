@@ -3,7 +3,6 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Test Plug-in
 Bundle-SymbolicName: org.cishell.testcollector
 Bundle-Version: 1.0.0
-Bundle-Vendor: RCPQUICKSTART
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
 X-Autostart: true
 Require-Bundle: com.rcpquickstart.bundletestcollector;bundle-version="1.0.0"

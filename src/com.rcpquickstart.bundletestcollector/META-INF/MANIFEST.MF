@@ -10,3 +10,4 @@ Eclipse-LazyStart: true
 Export-Package: com.rcpquickstart.bundletestcollector
 Eclipse-BuddyPolicy: dependent
 Import-Package: junit.framework;version="4.8.2"
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
