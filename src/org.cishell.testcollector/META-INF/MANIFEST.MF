@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test Plug-in
+Bundle-SymbolicName: org.cishell.testcollector
+Bundle-Version: 1.0.0
+Bundle-Vendor: RCPQUICKSTART
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+X-Autostart: true
+Require-Bundle: com.rcpquickstart.bundletestcollector;bundle-version="1.0.0"
+Bundle-Activator: org.cishell.testcollector.Activator
+Import-Package: junit.framework;version="4.8.2",
+ org.junit.runner;version="4.8.2",
+ org.junit.runner.notification;version="4.8.2",
+ org.osgi.framework;version="1.4.0",
+ org.tap4j.ext.junit,
+ org.tap4j.model,
+ org.tap4j.producer,
+ org.tap4j.util
